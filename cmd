@@ -24,4 +24,5 @@ mkdir -p TravelFunctionApp/BookingsFunction
      touch .funcignore
 mkdir .venv
 sudo snap install tree
+az login --use-device-code
 
