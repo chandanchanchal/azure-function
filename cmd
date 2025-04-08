@@ -13,3 +13,4 @@ Partition key: /id
 Leave throughput default for now.
 
 pip install azure-functions azure-cosmos
+mkdir -p TravelFunctionApp/BookingsFunction
