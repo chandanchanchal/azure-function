@@ -22,4 +22,6 @@ mkdir -p TravelFunctionApp/BookingsFunction
      touch local.settings.json
      touch requirements.txt
      touch .funcignore
+mkdir .venv
+sudo snap install tree
 
