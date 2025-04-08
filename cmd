@@ -14,3 +14,12 @@ Leave throughput default for now.
 
 pip install azure-functions azure-cosmos
 mkdir -p TravelFunctionApp/BookingsFunction
+
+# Create empty files
+     touch BookingsFunction/__init__.py
+     touch BookingsFunction/function.json
+     touch host.json
+     touch local.settings.json
+     touch requirements.txt
+     touch .funcignore
+
