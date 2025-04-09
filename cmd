@@ -26,3 +26,14 @@ mkdir .venv
 sudo snap install tree
 az login --use-device-code
 
+az functionapp create \
+  --resource-group MyResourceGroup \
+  --os-type Linux \
+  --consumption-plan-location eastus \
+  --runtime python \
+  --runtime-version 3.11 \
+  --functions-version 4 \
+  --name my-new-func-app \
+  --storage-account mystorageaccount123
+
+
