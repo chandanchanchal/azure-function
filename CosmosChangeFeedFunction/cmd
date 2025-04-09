@@ -1,0 +1,3 @@
+func init CosmosChangeFeedFunctionProj --python
+cd CosmosChangeFeedFunctionProj
+func new --name CosmosTriggerBookings --template "Azure Cosmos DB trigger" --authlevel function
