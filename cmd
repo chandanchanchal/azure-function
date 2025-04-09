@@ -37,3 +37,15 @@ az functionapp create \
   --storage-account mystorageaccount123
 
 
+curl -X POST "https://travel-func-app.azurewebsites.net/api/bookings?code=abc123XYZ==" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "B001",
+    "customerName": "Ravi Sharma",
+    "destination": "Goa",
+    "date": "2025-04-10",
+    "status": "Confirmed"
+  }'
+
+
+
