@@ -6,3 +6,5 @@ pip install -r requirements.txt
 
 func start
 
+sudo lsof -i :7070
+
