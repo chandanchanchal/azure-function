@@ -57,4 +57,6 @@ curl -X POST "https://travel-func-app.azurewebsites.net/api/bookings?code=6UjvDp
     "status": "Pending"
   }'
 
+curl -X GET "https://travel-func-app.azurewebsites.net/api/bookings?id=B001&code=6Ujv"
+
 
