@@ -8,3 +8,6 @@ func start
 
 sudo lsof -i :7070
 
+sudo netstat -tulnp | grep :7070
+
+
