@@ -5,10 +5,11 @@
       "type": "cosmosDBTrigger",
       "direction": "in",
       "leaseCollectionName": "leases",
+      "createLeaseCollectionIfNotExists": true,
       "connectionStringSetting": "CosmosDBConnectionString",
       "databaseName": "TravelDB",
-      "collectionName": "bookings",
-      "createLeaseCollectionIfNotExists": true
+      "collectionName": "Bookings"
     }
   ]
 }
+
