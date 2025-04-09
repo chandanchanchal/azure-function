@@ -10,4 +10,7 @@ sudo lsof -i :7070
 
 sudo netstat -tulnp | grep :7070
 
+sudo kill -9 <PID>
+
+
 
