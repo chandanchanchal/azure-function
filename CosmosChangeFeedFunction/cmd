@@ -12,5 +12,8 @@ sudo netstat -tulnp | grep :7070
 
 sudo kill -9 <PID>
 
+az vm list-usage --location <your-region> --output table
+
+
 
 
