@@ -4,3 +4,5 @@ func new --name CosmosTriggerBookings --template "Azure Cosmos DB trigger" --aut
 
 pip install -r requirements.txt
 
+func start
+
