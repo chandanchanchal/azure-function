@@ -1,0 +1,14 @@
+{
+  "bindings": [
+    {
+      "name": "documents",
+      "type": "cosmosDBTrigger",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "CosmosDBConnectionString",
+      "databaseName": "TravelDB",
+      "collectionName": "bookings",
+      "createLeaseCollectionIfNotExists": true
+    }
+  ]
+}
