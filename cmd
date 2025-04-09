@@ -60,3 +60,10 @@ curl -X POST "https://travel-func-app.azurewebsites.net/api/bookings?code=6UjvDp
 curl -X GET "https://travel-func-app.azurewebsites.net/api/bookings?id=B001&code=6Ujv"
 
 
+curl -X PUT "https://travel-func-app.azurewebsites.net/api/bookings?id=B001&code=6UjvDpBt" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "status": "Confirmed",
+    "date": "2025-04-15"
+  }'
+
