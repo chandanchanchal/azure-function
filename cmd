@@ -67,3 +67,5 @@ curl -X PUT "https://travel-func-app.azurewebsites.net/api/bookings?id=B001&code
     "date": "2025-04-15"
   }'
 
+curl -X DELETE "https://travel-func-app.azurewebsites.net/api/bookings?id=B001&code=6UjvD"
+
