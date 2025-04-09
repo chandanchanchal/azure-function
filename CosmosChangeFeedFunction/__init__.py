@@ -6,3 +6,4 @@ def main(documents: func.DocumentList) -> None:
         logging.info(f"Documents modified: {len(documents)}")
         for doc in documents:
             logging.info(f"Document content: {doc.to_json()}")
+
