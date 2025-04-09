@@ -47,5 +47,14 @@ curl -X POST "https://travel-func-app.azurewebsites.net/api/bookings?code=abc123
     "status": "Confirmed"
   }'
 
+curl -X POST "https://travel-func-app.azurewebsites.net/api/bookings?code=6UjvDp" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "B002",
+    "customerName": "Anjali Mehta",
+    "destination": "Manali",
+    "date": "2025-04-12",
+    "status": "Pending"
+  }'
 
 
