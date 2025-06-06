@@ -21,3 +21,16 @@ AzureFunctionsProject/
 │
 └── requirements.txt
 
+
+Set environment variables in Configuration:
+
+COSMOS_URI
+COSMOS_KEY
+COSMOS_DB
+COSMOS_CONTAINER
+
+
+
+
+
+
