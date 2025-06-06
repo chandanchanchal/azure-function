@@ -17,7 +17,7 @@ ImageResizeFunc/
 az storage account create --name mystoragefuncapp123 --location eastus2 --resource-group testrg --sku Standard_LRS
 
 az functionapp create \
-  --resource-group myResourceGroup \
+  --resource-group testrg \
   --consumption-plan-location eastus2 \
   --runtime python \
   --functions-version 4 \
