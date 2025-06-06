@@ -29,3 +29,7 @@ az functionapp create \
 az storage account show-connection-string --name ckcstorageaccorgn --resource-group testrg -o tsv
 az storage account show-connection-string --name ckcstorageaccdest --resource-group testrg -o tsv
 
+az functionapp config appsettings set --name myimagefuncapp123 --resource-group myResourceGroup --settings \
+  AzureWebJobsStorage="<source-connection-string>" \
+  DEST_STORAGE_CONNECTION="<dest-connection-string>"
+
