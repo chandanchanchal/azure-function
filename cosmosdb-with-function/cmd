@@ -42,5 +42,5 @@ az functionapp create \
 az functionapp create --resource-group testrg --consumption-plan-location eastus2 --runtime python --functions-version 4 --name mycosmosfuncapp123 --storage-account ccmystoragefuncapp123 --os-type Linux --runtime-version 3.11
 
 
-
+func azure functionapp publish ccmystoragefuncapp123 --python 
 
