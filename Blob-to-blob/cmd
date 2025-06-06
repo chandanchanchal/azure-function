@@ -5,3 +5,12 @@ npm i -g azure-functions-core-tools@4 --unsafe-perm true
 func init ImageResizeFunc --python
 cd ImageResizeFunc
 func new --name ResizeImageFunction --template "Blob trigger" --authlevel "function"
+
+ImageResizeFunc/
+├── host.json
+├── requirements.txt
+├── ResizeImageFunction/
+│   ├── __init__.py
+│   ├── function.json
+└── local.settings.json (optional)
+
