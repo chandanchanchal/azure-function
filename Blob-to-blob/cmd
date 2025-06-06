@@ -21,7 +21,7 @@ az functionapp create \
   --consumption-plan-location eastus2 \
   --runtime python \
   --functions-version 4 \
-  --name ccmyimagefuncapp123 \
-  --storage-account mystoragefuncapp123 \
+  --name myimagefuncapp123 \
+  --storage-account ccmystoragefuncapp123 \
   --os-type Linux \
   --runtime-version 3.11
