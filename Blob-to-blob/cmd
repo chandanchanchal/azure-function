@@ -33,3 +33,7 @@ az functionapp config appsettings set --name myimagefuncapp123 --resource-group 
   AzureWebJobsStorage="<source-connection-string>" \
   DEST_STORAGE_CONNECTION="<dest-connection-string>"
 
+
+func azure functionapp publish ccmyimagefuncapp123 --python --build remote
+
+
