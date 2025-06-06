@@ -44,3 +44,10 @@ az functionapp create --resource-group testrg --consumption-plan-location eastus
 
 func azure functionapp publish ccmystoragefuncapp123 --python 
 
+
+{
+  "id": "124",
+  "name": "new item",
+  "price": 88
+}
+
