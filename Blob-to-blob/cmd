@@ -14,3 +14,4 @@ ImageResizeFunc/
 │   ├── function.json
 └── local.settings.json (optional)
 
+az storage account create --name mystoragefuncapp123 --location eastus2 --resource-group myResourceGroup --sku Standard_LRS
