@@ -15,3 +15,13 @@ ImageResizeFunc/
 └── local.settings.json (optional)
 
 az storage account create --name mystoragefuncapp123 --location eastus2 --resource-group testrg --sku Standard_LRS
+
+az functionapp create \
+  --resource-group myResourceGroup \
+  --consumption-plan-location eastus2 \
+  --runtime python \
+  --functions-version 4 \
+  --name ccmyimagefuncapp123 \
+  --storage-account mystoragefuncapp123 \
+  --os-type Linux \
+  --runtime-version 3.11
