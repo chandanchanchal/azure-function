@@ -4,3 +4,4 @@ sudo apt install azure-cli -y
 npm i -g azure-functions-core-tools@4 --unsafe-perm true
 func init ImageResizeFunc --python
 cd ImageResizeFunc
+func new --name ResizeImageFunction --template "Blob trigger" --authlevel "function"
