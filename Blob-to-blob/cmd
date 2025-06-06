@@ -25,3 +25,7 @@ az functionapp create \
   --storage-account ccmystoragefuncapp123 \
   --os-type Linux \
   --runtime-version 3.11
+
+az storage account show-connection-string --name ckcstorageaccorgn --resource-group testrg -o tsv
+az storage account show-connection-string --name ckcstorageaccdest --resource-group testrg -o tsv
+
