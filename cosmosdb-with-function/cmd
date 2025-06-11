@@ -1,6 +1,7 @@
 sudo apt update -y
 sudo apt install azure-cli -y
 npm i -g azure-functions-core-tools@4 --unsafe-perm true
+https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest&pivots=apt
 
 AzureFunctionsProject/
 │
