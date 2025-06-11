@@ -4,6 +4,7 @@ npm i -g azure-functions-core-tools@4 --unsafe-perm true
 https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest&pivots=apt
 sudo snap install postman
 https://www.google.com/search?q=install+azure-functions-core-tools%404+on+ubuntu+22&oq=install+azure-functions-core-tools%404+on+ubuntu+22&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDUzODNqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8
+sudo snap install --classic code # or code-insiders
 
 AzureFunctionsProject/
 │
