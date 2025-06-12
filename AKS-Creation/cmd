@@ -1,5 +1,9 @@
 https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
+echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc
+source ~/.bashrc
+
+
 # Set your own names
 RESOURCE_GROUP="aks-rg"
 AKS_CLUSTER_NAME="aks-cluster"
