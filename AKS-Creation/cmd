@@ -1,3 +1,5 @@
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
 # Set your own names
 RESOURCE_GROUP="aks-rg"
 AKS_CLUSTER_NAME="aks-cluster"
