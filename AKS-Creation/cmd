@@ -1,0 +1,18 @@
+# Set your own names
+RESOURCE_GROUP="aks-rg"
+AKS_CLUSTER_NAME="aks-cluster"
+LOCATION="eastus"
+NODE_COUNT=3
+NODE_SIZE="Standard_DS2_v2"
+
+
+az aks create \
+  --resource-group $RESOURCE_GROUP \
+  --name $AKS_CLUSTER_NAME \
+  --node-count $NODE_COUNT \
+  --node-vm-size $NODE_SIZE \
+  --generate-ssh-keys \
+  --enable-managed-identity \
+  --location $LOCATION \
+  --enable-addons monitoring \
+  --network-plugin azure
